@@ -25,9 +25,8 @@ export const Container = styled.div`
 export const Cadas = styled.a`
     
     align-items: center;
+    
     margin-left: 40%;
-    margin-bottom: 50px;
-    display: flex;
     color: #287c43;
     text-decoration: none;
 
@@ -37,14 +36,18 @@ export const Logo = styled.div`
     display: flex;
     align-items: center;
     margin-bottom: 50px;
-    margin-left: 100px 
+    margin-left: 2px;
+    margin-top: 30px;
+    height: 80px ;
+    width: 50px;
+    
 
   
 `;
 
 export const Form = styled.form`
     width: 500px;
-    height: 500px;
+    height: 550px;
 
     padding: 30px 30px 30px 30px;
 

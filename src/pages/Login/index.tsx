@@ -9,7 +9,7 @@ import {
     Cadas
 
 }  from './styles';
-import LogoImg  from '../../images/logosis.png';
+import LogoImg  from '../../images/ruralV.png';
 import Input from '../../components/Input';
 
 import Button from '../../components/Button';

@@ -12,7 +12,7 @@ ReactDOM.render(
 
   <React.StrictMode>
     <AuthProvider>
-    <App/>
+      <App/>
     </AuthProvider>
   </React.StrictMode>,
   

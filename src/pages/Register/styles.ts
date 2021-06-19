@@ -32,10 +32,13 @@ export const Link = styled.link`
 `;
 export const Logo = styled.div`
 
-    display: flex;
+display: flex;
     align-items: center;
     margin-bottom: 50px;
-    margin-left: 100px 
+    margin-left: 2px;
+    margin-top: 30px;
+    height: 80px ;
+    width: 50px;
 
   
 `;

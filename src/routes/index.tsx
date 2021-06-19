@@ -4,6 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import {useAuth} from '../hooks/auth';
 import App from './app.routes'
 import Auth from './auth.routes'
+import Regis from './../pages/Register/index'
 
 const Routes: React.FC = () =>{
 
@@ -11,7 +12,8 @@ const { logged } = useAuth();
 
     return(
         <BrowserRouter>
-           {logged ? <App /> : <Auth />}
+           {logged ? <App /> : <Auth /> }
+           
         </BrowserRouter>
 
 
